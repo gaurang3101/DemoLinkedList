@@ -29,8 +29,11 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
 
     }
 
-    //create the Noode class
+    //create the Node class
     private static class Node<E> {
+        private E data;
+        private Node<E> next;
+
 
     }
 }
